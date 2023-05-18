@@ -1,8 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package zapocty.circles.RBClick;
+package zapocty.grafSinCos;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,11 +14,7 @@ import javafx.stage.Stage;
  *
  * @author sirst
  */
-public class JavaFXrb extends Application{
-
-    /**
-     * @param args the command line arguments
-     */
+public class GrafSinCos extends Application{
     public static void main(String[] args) {
         launch(args);
     }
@@ -28,12 +24,10 @@ public class JavaFXrb extends Application{
         Parent root = FXMLLoader.load(getClass().getResource("FXMLD.fxml"));
         Scene scene = new Scene(root);
         
-        
-        stage.setMinHeight(600);
-        stage.setMinWidth(850);
         stage.setScene(scene);
         stage.setTitle("Zapocet: Streblychenko Andrii");
+        stage.setMinHeight(600);
+        stage.setMinHeight(400);
         stage.show();
     }
-    
 }
